@@ -1,4 +1,5 @@
 import WaterRipple from './WaterRipple';
+import demoImage from './assets/background.png'
 import './App.css';
 
 function App() {
@@ -6,7 +7,7 @@ function App() {
     <div className="app-container">
 
         <WaterRipple 
-          imageSrc="./background.png" 
+          imageSrc= {demoImage}
           width={1000} 
           height={667} 
           rippleSize={5}
